@@ -37,7 +37,9 @@ function playGame () {
 
     function playRound(humanChoice, computerChoice) {
 
-        if ((humanChoice == "Rock" && computerChoice == "Scissors" || (humanChoice == "Scissors" && computerChoice == "Paper")) || (humanChoice == "Paper" && computerChoice == "Rock")) {
+        if ((humanChoice == "Rock" && computerChoice == "Scissors" 
+            || (humanChoice == "Scissors" && computerChoice == "Paper")) 
+            || (humanChoice == "Paper" && computerChoice == "Rock")) {
             alert(`You win, ${humanChoice} beats ${computerChoice}!`);
             humanScore++;
         }
